@@ -14,12 +14,23 @@ Approximate topic frequency was calculated as:
 
 `frequency_hz = message_count / duration_seconds`
 
+## Command Used
+
+```bash
+python3 scripts/02_parse_metadata.py
+
 ## Output
 The final topic summary table will be saved in:
 
 `outputs/tables/topic_summary.csv`
 
-## Command Used
+### Notes
 
-```bash
-python3 scripts/02_parse_metadata.py
+The frequency is approximate because it is calculated using total bag duration, not actual first-to-last timestamp per topic.
+
+### Important learning point
+
+```text
+This table is not yet timing-quality analysis.
+It only gives a first-level topic identity summary.
+```
