@@ -1,0 +1,29 @@
+topic,type,count,approx_hz,sensor_group,priority
+/imu/data,sensor_msgs/msg/Imu,13600,50.493,External IMU,High
+/gnss,sensor_msgs/msg/NavSatFix,540,2.005,GNSS,High
+/ouster/imu,sensor_msgs/msg/Imu,39312,145.956,Ouster LiDAR / Ouster IMU,High
+/ouster/points,sensor_msgs/msg/PointCloud2,7961,29.557,Ouster LiDAR / Ouster IMU,High
+/off_highway_premium_radar_sample_driver/locations,sensor_msgs/msg/PointCloud2,2074,7.7,Radar,High
+/tf,tf2_msgs/msg/TFMessage,40036,148.644,TF,High
+/tf_static,tf2_msgs/msg/TFMessage,2742,10.18,TF,High
+/clock,rosgraph_msgs/msg/Clock,5432,20.168,Clock,Low
+/gnss_pose,geometry_msgs/msg/PoseStamped,0,0.0,GNSS,Low
+/diagnostics,diagnostic_msgs/msg/DiagnosticArray,272,1.01,System / Other,Low
+/events/read_split,rosbag2_interfaces/msg/ReadSplitEvent,0,0.0,System / Other,Low
+/events/write_split,rosbag2_interfaces/msg/WriteSplitEvent,0,0.0,System / Other,Low
+/parameter_events,rcl_interfaces/msg/ParameterEvent,46,0.171,System / Other,Low
+/rosout,rcl_interfaces/msg/Log,48,0.178,System / Other,Low
+/zed2i/joint_states,sensor_msgs/msg/JointState,0,0.0,ZED2i Camera / ZED2i IMU,Low
+/zed2i/robot_description,std_msgs/msg/String,1,0.004,ZED2i Camera / ZED2i IMU,Low
+/ouster/metadata,std_msgs/msg/String,1,0.004,Ouster LiDAR / Ouster IMU,Medium
+/ouster/nearir_image,sensor_msgs/msg/Image,8018,29.769,Ouster LiDAR / Ouster IMU,Medium
+/ouster/range_image,sensor_msgs/msg/Image,8049,29.884,Ouster LiDAR / Ouster IMU,Medium
+/ouster/reflec_image,sensor_msgs/msg/Image,7996,29.687,Ouster LiDAR / Ouster IMU,Medium
+/ouster/scan,sensor_msgs/msg/LaserScan,7029,26.097,Ouster LiDAR / Ouster IMU,Medium
+/ouster/signal_image,sensor_msgs/msg/Image,8008,29.732,Ouster LiDAR / Ouster IMU,Medium
+/zed2i/zed_node/imu/data,sensor_msgs/msg/Imu,26432,98.136,ZED2i Camera / ZED2i IMU,Medium
+/zed2i/zed_node/left/camera_info,sensor_msgs/msg/CameraInfo,4062,15.081,ZED2i Camera / ZED2i IMU,Medium
+/zed2i/zed_node/left/image_rect_color/compressed,sensor_msgs/msg/CompressedImage,2035,7.555,ZED2i Camera / ZED2i IMU,Medium
+/zed2i/zed_node/left_cam_imu_transform,geometry_msgs/msg/TransformStamped,26430,98.128,ZED2i Camera / ZED2i IMU,Medium
+/zed2i/zed_node/right/camera_info,sensor_msgs/msg/CameraInfo,4023,14.936,ZED2i Camera / ZED2i IMU,Medium
+/zed2i/zed_node/right/image_rect_color/compressed,sensor_msgs/msg/CompressedImage,2028,7.529,ZED2i Camera / ZED2i IMU,Medium

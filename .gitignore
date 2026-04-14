@@ -12,11 +12,20 @@ raw/*
 *.db3
 *.bag
 outputs/tmp/
-__pycache__/
-*.pyc
-.venv/
-.env
 
 # macOS system files
 .DS_Store
 **/.DS_Store
+
+# Python virtual environment
+.venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ROS build artifacts
+build/
+install/
+log/

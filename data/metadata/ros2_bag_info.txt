@@ -1,0 +1,39 @@
+
+Files:             /workspace/raw/data/rosbag_2025_07_17-15-11-39_lidar_imu_bosch_comp-zed-os-pcd_0.mcap
+Bag size:          28.2 GiB
+Storage id:        mcap
+Duration:          269.341840121s
+Start:             Feb 17 2026 13:58:22.019784762 (1771336702.019784762)
+End:               Feb 17 2026 14:02:51.361624883 (1771336971.361624883)
+Messages:          216175
+Topic information: Topic: /zed2i/joint_states | Type: sensor_msgs/msg/JointState | Count: 0 | Serialization Format: cdr
+                   Topic: /zed2i/zed_node/right/image_rect_color/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 2028 | Serialization Format: cdr
+                   Topic: /off_highway_premium_radar_sample_driver/locations | Type: sensor_msgs/msg/PointCloud2 | Count: 2074 | Serialization Format: cdr
+                   Topic: /imu/data | Type: sensor_msgs/msg/Imu | Count: 13600 | Serialization Format: cdr
+                   Topic: /gnss | Type: sensor_msgs/msg/NavSatFix | Count: 540 | Serialization Format: cdr
+                   Topic: /zed2i/zed_node/left/camera_info | Type: sensor_msgs/msg/CameraInfo | Count: 4062 | Serialization Format: cdr
+                   Topic: /zed2i/zed_node/left_cam_imu_transform | Type: geometry_msgs/msg/TransformStamped | Count: 26430 | Serialization Format: cdr
+                   Topic: /clock | Type: rosgraph_msgs/msg/Clock | Count: 5432 | Serialization Format: cdr
+                   Topic: /events/read_split | Type: rosbag2_interfaces/msg/ReadSplitEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 40036 | Serialization Format: cdr
+                   Topic: /zed2i/robot_description | Type: std_msgs/msg/String | Count: 1 | Serialization Format: cdr
+                   Topic: /zed2i/zed_node/imu/data | Type: sensor_msgs/msg/Imu | Count: 26432 | Serialization Format: cdr
+                   Topic: /zed2i/zed_node/left/image_rect_color/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 2035 | Serialization Format: cdr
+                   Topic: /diagnostics | Type: diagnostic_msgs/msg/DiagnosticArray | Count: 272 | Serialization Format: cdr
+                   Topic: /gnss_pose | Type: geometry_msgs/msg/PoseStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /rosout | Type: rcl_interfaces/msg/Log | Count: 48 | Serialization Format: cdr
+                   Topic: /parameter_events | Type: rcl_interfaces/msg/ParameterEvent | Count: 46 | Serialization Format: cdr
+                   Topic: /ouster/signal_image | Type: sensor_msgs/msg/Image | Count: 8008 | Serialization Format: cdr
+                   Topic: /ouster/range_image | Type: sensor_msgs/msg/Image | Count: 8049 | Serialization Format: cdr
+                   Topic: /ouster/scan | Type: sensor_msgs/msg/LaserScan | Count: 7029 | Serialization Format: cdr
+                   Topic: /ouster/points | Type: sensor_msgs/msg/PointCloud2 | Count: 7961 | Serialization Format: cdr
+                   Topic: /tf_static | Type: tf2_msgs/msg/TFMessage | Count: 2742 | Serialization Format: cdr
+                   Topic: /ouster/reflec_image | Type: sensor_msgs/msg/Image | Count: 7996 | Serialization Format: cdr
+                   Topic: /ouster/nearir_image | Type: sensor_msgs/msg/Image | Count: 8018 | Serialization Format: cdr
+                   Topic: /ouster/imu | Type: sensor_msgs/msg/Imu | Count: 39312 | Serialization Format: cdr
+                   Topic: /events/write_split | Type: rosbag2_interfaces/msg/WriteSplitEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /zed2i/zed_node/right/camera_info | Type: sensor_msgs/msg/CameraInfo | Count: 4023 | Serialization Format: cdr
+                   Topic: /ouster/metadata | Type: std_msgs/msg/String | Count: 1 | Serialization Format: cdr
+
+
+closing.
