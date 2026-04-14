@@ -1,0 +1,22 @@
+# Raw dataset (do not track)
+# Ignore everything in raw
+raw/*
+
+# But allow metadata files
+!raw/**/metadata.yaml
+
+# (optional) keep folder structure
+!raw/.gitkeep
+
+*.mcap
+*.db3
+*.bag
+outputs/tmp/
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# macOS system files
+.DS_Store
+**/.DS_Store
