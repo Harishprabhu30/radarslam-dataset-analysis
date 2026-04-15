@@ -1,0 +1,56 @@
+Camera Timing and Stereo Consistency Summary
+============================================================
+
+Image topic counts:
+  left images  = 2035
+  right images = 2028
+
+left_image_dt_s:
+  count   = 2034
+  min     = 0.033079
+  max     = 0.800317
+  mean    = 0.127476
+  median  = 0.066682
+  std     = 0.170457
+
+right_image_dt_s:
+  count   = 2027
+  min     = 0.033079
+  max     = 0.800317
+  mean    = 0.127818
+  median  = 0.066682
+  std     = 0.170680
+
+Camera info topic counts:
+  left camera_info  = 4062
+  right camera_info = 4023
+
+left_camera_info_dt_s:
+  count   = 4061
+  min     = 0.000000
+  max     = 0.800317
+  mean    = 0.063848
+  median  = 0.033120
+  std     = 0.136564
+
+right_camera_info_dt_s:
+  count   = 4022
+  min     = 0.000000
+  max     = 0.800317
+  mean    = 0.064450
+  median  = 0.033431
+  std     = 0.137157
+
+Stereo nearest-pair timing:
+left_to_right_abs_time_diff_s:
+  count   = 2035
+  min     = 0.000000
+  max     = 0.133414
+  mean    = 0.001556
+  median  = 0.000000
+  std     = 0.010620
+
+Stereo pairing quality indicators:
+  pairs with abs_time_diff_s <= 0.005: 1990
+  pairs with abs_time_diff_s <= 0.010: 1990
+  pairs with abs_time_diff_s <= 0.020: 1990
