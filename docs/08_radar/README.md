@@ -51,3 +51,5 @@ The radar detections provide rich fields including:
 ### Working interpretation
 The radar topic appears structurally suitable for deeper content analysis.
 It should be treated as a sparse, detection-oriented supporting sensor rather than a dense geometric sensor like LiDAR.
+
+** GOTO docs/08_1_radar_diagnostics/README.md to know more about radar.
