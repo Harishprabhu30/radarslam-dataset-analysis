@@ -59,3 +59,5 @@ The sampled intrinsic values appear stable.
 ### Working interpretation
 The camera block is present and structurally usable.
 The next step is to inspect timing consistency between left and right images and then inspect sampled image content visually.
+
+** GOTO docs/09_1_camera_timing/README.md to know more about camera timing and stereo stability consistency analysis.
