@@ -124,3 +124,5 @@ because each IMU may have:
 - different vibration exposure
 
 So raw values are usually not directly comparable axis-to-axis unless you rotate them into the same frame.
+
+** Goto docs/06_2_imu_frame_alignment/README.md to know more on imu frame alignments details.
