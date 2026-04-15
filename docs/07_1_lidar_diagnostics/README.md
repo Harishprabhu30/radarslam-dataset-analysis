@@ -54,3 +54,4 @@ This is consistent with earlier findings that Ouster timing should not be interp
 `/ouster/points` should be treated as the primary LiDAR topic for later analysis.
 `/ouster/scan` should be treated as a secondary simplified LiDAR representation.
 
+** Goto docs/07_2_lidar_content/README.md to know more on whats inside the Lidar.
