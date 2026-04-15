@@ -261,3 +261,5 @@ I would define a time policy for this dataset:
 
 **Rule:**
     Never mix both without explicit alignment.
+
+** Goto docs/04_2_time_alignment.md to know more.
