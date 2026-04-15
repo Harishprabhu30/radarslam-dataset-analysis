@@ -59,3 +59,4 @@ The projected 2D scan is also structurally consistent:
 `/ouster/points` should be treated as the main LiDAR topic.
 `/ouster/scan` should be treated as a secondary simplified representation.
 
+** Goto docs/07_1_lidar_diagnostics/README.md to know more about lidar and its diagnostics.
