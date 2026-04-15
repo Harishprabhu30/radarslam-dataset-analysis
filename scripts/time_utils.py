@@ -1,6 +1,6 @@
 from typing import Optional
 
-TIME_OFFSET_S = 18582410.0
+TIME_OFFSET_S = 18582410.0  # Estimated from Stage 4.1: bag_time - header_time
 
 HEADER_TOPICS = {
     "/gnss",
@@ -54,12 +54,11 @@ def get_unified_time(topic_name: str, msg, bag_time_s: float) -> Optional[float]
 # =========================================================
 # NEW: LABEL FUNCTION (DOES NOT MODIFY ORIGINAL LOGIC)
 # =========================================================
-def get_time_source_label(topic_name: str, msg, bag_time_s: float) -> str:
+def get_time_source_label(topic_name: str, msg) -> str:
     """
     Returns which time source would be used by get_unified_time().
     Purely diagnostic / annotation function.
     """
-
     if topic_name in HEADER_TOPICS and has_valid_header_stamp(msg):
         return "header"
 
