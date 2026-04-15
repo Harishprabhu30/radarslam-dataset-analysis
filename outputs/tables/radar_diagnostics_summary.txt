@@ -1,0 +1,34 @@
+Radar Diagnostics Summary
+============================================================
+Input file: outputs/tables/radar_metadata.csv
+Total frames: 2074
+
+Unique frame_id values: 1
+Unique field_names values: 1
+Unique field_count values: 1
+Unique point_step values: 1
+Unique is_dense values: 1
+
+radar_dt_s:
+  count   = 2073
+  min     = 0.051901
+  max     = 0.799600
+  mean    = 0.125123
+  median  = 0.069676
+  std     = 0.168386
+
+estimated_point_count:
+  count   = 2074
+  min     = 123.000000
+  max     = 714.000000
+  mean    = 408.296528
+  median  = 407.500000
+  std     = 89.682472
+
+data_length_bytes:
+  count   = 2074
+  min     = 9840.000000
+  max     = 57120.000000
+  mean    = 32663.722276
+  median  = 32600.000000
+  std     = 7174.597765
