@@ -126,6 +126,7 @@ radarslam-dataset-analysis/
 │   ├── tables/
 │   └── plots/
 └── .gitignore
+```
 
 ### Analysis stages covered
 
