@@ -1,0 +1,85 @@
+GNSS Diagnostics Summary
+============================================================
+Input file: outputs/tables/gnss_trajectory.csv
+Total rows: 540
+
+Status code distribution:
+  -1: 540
+
+Service code distribution:
+  0: 540
+
+dt_s:
+  count   = 539
+  min     = 0.250000
+  max     = 1.000000
+  mean    = 0.479592
+  median  = 0.250000
+  std     = 0.275723
+
+step_distance_2d_m:
+  count   = 539
+  min     = 0.000000
+  max     = 276279.859458
+  mean    = 7807.514904
+  median  = 0.000000
+  std     = 24130.827255
+
+speed_2d_mps:
+  count   = 539
+  min     = 0.000000
+  max     = 389577.491961
+  mean    = 21827.186112
+  median  = 0.000000
+  std     = 63003.729008
+
+speed_2d_kmph:
+  count   = 539
+  min     = 0.000000
+  max     = 1402478.971060
+  mean    = 78577.870005
+  median  = 0.000000
+  std     = 226813.424428
+
+altitude_m:
+  count   = 540
+  min     = 9951.665000
+  max     = 12236.168000
+  mean    = 11756.916841
+  median  = 12236.168000
+  std     = 710.651825
+
+cov_xx:
+  count   = 540
+  min     = 18446744065119.617188
+  max     = 18446744065119.617188
+  mean    = 18446744065119.621094
+  median  = 18446744065119.617188
+  std     = 0.003910
+
+cov_yy:
+  count   = 540
+  min     = 18446744065119.617188
+  max     = 18446744065119.617188
+  mean    = 18446744065119.621094
+  median  = 18446744065119.617188
+  std     = 0.003910
+
+cov_zz:
+  count   = 540
+  min     = 14064000520025.603516
+  max     = 14064384543133.597656
+  mean    = 14064170208061.414062
+  median  = 14064161809092.380859
+  std     = 118548791.301914
+
+Latitude/Longitude bounds:
+  lat_min = 43.133760200
+  lat_max = 49.269652400
+  lon_min = 86.298701200
+  lon_max = 97.991675400
+
+Suspicion indicators:
+  rows with speed_2d_kmph > 200: 177
+  rows with altitude outside [-500, 5000] m: 540
+  rows with status_code == -1: 540
