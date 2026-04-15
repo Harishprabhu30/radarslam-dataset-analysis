@@ -44,12 +44,6 @@ After the full inspection pipeline, the dataset is best understood as:
 - **Supporting sensors:** radar and stereo camera
 - **Rejected reference sensor:** GNSS
 
-So this dataset should be treated as a:
-
-**LiDAR-IMU-centered perception dataset with supporting radar and visual context**
-
-and **not** as a GNSS-referenced trajectory dataset.
-
 ---
 
 ## Dataset summary
