@@ -1,0 +1,12 @@
+sensor_block,topic,trust_level,time_source,main_frame,final_role,key_reason
+GNSS,/gnss,rejected,header,sensor_box/imu_link,diagnostic_only,"No-fix status, huge covariance, unrealistic altitude and speeds"
+External IMU,/imu/data,high,header,sensor_box/imu_link,primary_motion_sensor,"Physically plausible, stable, body-relevant candidate"
+ZED IMU,/zed2i/zed_node/imu/data,high,header,zed2i_imu_link,primary_motion_sensor,"Good gravity consistency, low apparent bias, strong timing"
+Ouster IMU,/ouster/imu,medium,bag_minus_offset,os_imu,supporting_imu,"Plausible values, but weaker timing reliability"
+Ouster LiDAR,/ouster/points,high,bag_minus_offset,os_lidar,primary_geometry_sensor,"Strongest dense geometric signal, rich fields, valid content"
+Ouster scan,/ouster/scan,medium,bag_minus_offset,os_lidar,secondary_lidar_view,"Stable 2D-style projection, useful supporting representation"
+Radar,/off_highway_premium_radar_sample_driver/locations,medium_high,header,base_link,supporting_perception_sensor,"Healthy sparse detections, rich velocity/SNR/RCS attributes"
+Stereo camera,/zed2i/zed_node/left-right/image_rect_color/compressed,medium_high,header,zed2i_left-right_camera_optical_frame,supporting_visual_sensor,"Structurally healthy, stereo timing good, upside-down but consistent"
+Camera info,/zed2i/zed_node/left-right/camera_info,medium,header_fallback,zed2i_left-right_camera_optical_frame,calibration_support_metadata,"Stable intrinsics, not primary timing anchor"
+TF,/tf|/tf_static,medium,bag,multiple,frame_context,"Useful but not fully confirmed for all sensor-chain alignment"
+Clock,/clock,medium,bag,na,replay_timing_support,"Supports bag playback timing understanding"
