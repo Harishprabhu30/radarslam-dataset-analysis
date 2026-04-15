@@ -1,0 +1,220 @@
+IMU Diagnostics Summary
+============================================================
+
+IMU Topic: /imu/data
+----------------------------------------
+dt_s:
+  count   = 13599
+  min     = 0.007991
+  max     = 0.729982
+  mean    = 0.019072
+  median  = 0.010000
+  std     = 0.069279
+
+angular_velocity_x:
+  count   = 13600
+  min     = -0.565442
+  max     = 0.339942
+  mean    = 0.003801
+  median  = 0.002971
+  std     = 0.035721
+angular_velocity_y:
+  count   = 13600
+  min     = -0.776719
+  max     = 0.557449
+  mean    = -0.077093
+  median  = -0.057441
+  std     = 0.134061
+angular_velocity_z:
+  count   = 13600
+  min     = -0.143409
+  max     = 0.148378
+  mean    = 0.003332
+  median  = 0.002513
+  std     = 0.024625
+gyro_magnitude:
+  count   = 13600
+  min     = 0.002378
+  max     = 0.782846
+  mean    = 0.116229
+  median  = 0.072425
+  std     = 0.110967
+
+linear_acceleration_x:
+  count   = 13600
+  min     = -5.106528
+  max     = 5.106930
+  mean    = -0.411022
+  median  = -0.305409
+  std     = 0.695259
+linear_acceleration_y:
+  count   = 13600
+  min     = -1.441715
+  max     = 20.630537
+  mean    = 9.763652
+  median  = 9.806216
+  std     = 1.035210
+linear_acceleration_z:
+  count   = 13600
+  min     = -15.905229
+  max     = 33.839710
+  mean    = -0.092668
+  median  = -0.073836
+  std     = 1.341300
+acc_magnitude:
+  count   = 13600
+  min     = 3.663786
+  max     = 38.665295
+  mean    = 9.882131
+  median  = 9.818700
+  std     = 1.097217
+
+Quick checks:
+  mean(acc_magnitude) ≈ 9.882 m/s²
+  std(acc_magnitude)  ≈ 1.097
+
+
+IMU Topic: /ouster/imu
+----------------------------------------
+dt_s:
+  count   = 39311
+  min     = 0.000010
+  max     = 13.317009
+  mean    = 0.006851
+  median  = 0.000085
+  std     = 0.078947
+
+angular_velocity_x:
+  count   = 39312
+  min     = -0.333960
+  max     = 0.408263
+  mean    = 0.008312
+  median  = 0.009055
+  std     = 0.056607
+angular_velocity_y:
+  count   = 39312
+  min     = -0.417184
+  max     = 0.334360
+  mean    = -0.007983
+  median  = -0.007856
+  std     = 0.051083
+angular_velocity_z:
+  count   = 39312
+  min     = -0.699879
+  max     = 0.609997
+  mean    = -0.017128
+  median  = 0.003995
+  std     = 0.135755
+gyro_magnitude:
+  count   = 39312
+  min     = 0.001855
+  max     = 0.783244
+  mean    = 0.111441
+  median  = 0.079871
+  std     = 0.110680
+
+linear_acceleration_x:
+  count   = 39312
+  min     = -11.420940
+  max     = 11.593323
+  mean    = -0.110555
+  median  = -0.125696
+  std     = 1.991103
+linear_acceleration_y:
+  count   = 39312
+  min     = -19.057845
+  max     = 19.527707
+  mean    = -0.055283
+  median  = -0.118513
+  std     = 2.796080
+linear_acceleration_z:
+  count   = 39312
+  min     = -0.040701
+  max     = 19.546861
+  mean    = 9.846105
+  median  = 9.873089
+  std     = 1.074431
+acc_magnitude:
+  count   = 39312
+  min     = 3.831723
+  max     = 23.363199
+  mean    = 10.397438
+  median  = 10.074122
+  std     = 1.338293
+
+Quick checks:
+  mean(acc_magnitude) ≈ 10.397 m/s²
+  std(acc_magnitude)  ≈ 1.338
+
+
+IMU Topic: /zed2i/zed_node/imu/data
+----------------------------------------
+dt_s:
+  count   = 26431
+  min     = 0.002475
+  max     = 0.723430
+  mean    = 0.009811
+  median  = 0.004955
+  std     = 0.049854
+
+angular_velocity_x:
+  count   = 26432
+  min     = -1.104155
+  max     = 1.073957
+  mean    = 0.000235
+  median  = -0.000625
+  std     = 0.067912
+angular_velocity_y:
+  count   = 26432
+  min     = -0.661523
+  max     = 0.573123
+  mean    = -0.005086
+  median  = -0.003315
+  std     = 0.053550
+angular_velocity_z:
+  count   = 26432
+  min     = -0.613699
+  max     = 0.748764
+  mean    = 0.020648
+  median  = 0.000698
+  std     = 0.135001
+gyro_magnitude:
+  count   = 26432
+  min     = 0.000261
+  max     = 1.161444
+  mean    = 0.108937
+  median  = 0.073939
+  std     = 0.119539
+
+linear_acceleration_x:
+  count   = 26432
+  min     = -12.211354
+  max     = 16.126959
+  mean    = -0.156962
+  median  = -0.146897
+  std     = 1.014221
+linear_acceleration_y:
+  count   = 26432
+  min     = -4.380403
+  max     = 4.876757
+  mean    = 0.242039
+  median  = 0.141580
+  std     = 0.679951
+linear_acceleration_z:
+  count   = 26432
+  min     = -19.405857
+  max     = -2.207925
+  mean    = -9.770439
+  median  = -9.788513
+  std     = 1.099951
+acc_magnitude:
+  count   = 26432
+  min     = 2.234443
+  max     = 19.545170
+  mean    = 9.850575
+  median  = 9.805240
+  std     = 1.100767
+
+Quick checks:
+  mean(acc_magnitude) ≈ 9.851 m/s²
+  std(acc_magnitude)  ≈ 1.101
